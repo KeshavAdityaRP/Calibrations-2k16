@@ -1,0 +1,23 @@
+html,body,h1,h2,h3,h4,h5 {
+	font-family: "Raleway", sans-serif ;
+}
+
+.w3-sidenav a,.w3-sidenav h4 {
+	font-weight: bold;
+}
+
+.jumbotron{
+	max-width:100%; 
+	width: 100%;
+	position: relative;
+	height: 1013px;
+	background-repeat: no-repeat;
+	background-position-x: 100%; 
+	margin-bottom: 0%;
+}
+
+.OverlayText{
+	position: absolute;
+	top: 35%;
+	left: 25%;
+}
