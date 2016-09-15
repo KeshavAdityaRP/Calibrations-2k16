@@ -52,8 +52,48 @@ html,body,h1,h2,h3,h4,h5 {
 	margin-top: 15%;
 }
 
+.cardset3{
+	width: 50%;
+	height: 200px;
+}
+
 .img1{
    opacity: 0.6;
    padding: 4%;
    width: 100%;
 }
+
+.eventpic{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	margin-top: 5%;
+	background-image: url(../images/2.png);
+	background-position: center;
+}
+
+#speventpic{
+	background-image: url(../images/102.jpg);
+	margin-top: 2%;	
+}
+
+.eventtext{
+	width: 100%;
+	height: 300px; 
+	background: #FFFFFF; 
+	opacity: 0; 
+}
+
+.eventpic:hover .eventtext{
+	opacity:0.6; 
+	text-align:justify; 
+	color:#000000; 
+	font-size:20px; 
+	font-weight:700; 
+	font-family:"Times New Roman", Times, serif; 
+	padding:30px;
+	overflow: hidden;
+	font-size: large;
+}
+
+
