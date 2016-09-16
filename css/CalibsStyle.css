@@ -6,6 +6,28 @@ html,body,h1,h2,h3,h4,h5 {
 	font-weight: bold;
 }
 
+h1 {
+	font-family: "Impact","Charcoal" , sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 49.5px;
+}
+
+h4 {
+	font-family: "Impact","Charcoal" , sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}	
+
+.container-fluid{
+	background-color: ##d3d3d3; /*009688*/
+}
+
 .jumbotron{
 	background-image: url(../images/101.jpg);
 	max-width:100%; 
@@ -20,10 +42,31 @@ html,body,h1,h2,h3,h4,h5 {
 	margin-bottom: 0%;
 }
 
+#about{
+	background-color: #A7FFEB;
+}
+
+#contact{
+	background-color: #A7FFEB;	
+}
+
+#author{
+	background-color: #000000;   
+}
+
+.branding:hover{
+    color: red;
+}
+
 .movedownicon{
+	color: #009688;
 	font-size: 5em;
 	position: relative;
 	left: 40%;
+}
+
+.movedownicon:hover{
+	color: #004D40;
 }
 
 .container{
@@ -37,17 +80,28 @@ html,body,h1,h2,h3,h4,h5 {
 }
 
 .cardset1{
+	background-color: #00695C;
 	width: 100%;
 	height: 500px;
 	margin: auto;
 	margin-top: 15%;
+	text-align: justify;
+	font-size: large;
+	line-height: 2em;
+	padding: 7%;
+	overflow: hidden;
 }
 
 .cardset2{
+	background-color: #1DE9B6;
 	width: 100%;
-	height: 125px;
+	height: 90px;
 	margin: auto;
 	margin-top: 15%;
+	text-align: justify;
+	line-height: 1.3em;
+	padding: 3%;
+	overflow: hidden;
 }
 
 .cardset3{
@@ -59,6 +113,7 @@ html,body,h1,h2,h3,h4,h5 {
    opacity: 0.6;
    padding: 4%;
    width: 100%;
+   margin-top: 8%;
 }
 
 .eventpic{
@@ -66,13 +121,7 @@ html,body,h1,h2,h3,h4,h5 {
 	height: 300px;
 	margin: auto;
 	margin-top: 5%;
-	background-image: url(../images/2.png);
 	background-position: center;
-}
-
-#speventpic{
-	background-image: url(../images/102.jpg);
-	margin-top: 2%;	
 }
 
 .eventtext{
@@ -83,15 +132,98 @@ html,body,h1,h2,h3,h4,h5 {
 }
 
 .eventpic:hover .eventtext{
-	opacity:0.6; 
-	text-align:justify; 
-	color:#000000; 
-	font-size:20px; 
-	font-weight:700; 
-	font-family:"Times New Roman", Times, serif; 
-	padding:30px;
+	opacity: 0.6; 
+	text-align: center;
+	line-height: 4em; 
+	color: #000000; 
+	font-size: 20px; 
+	font-weight: 700; 
+	font-family: "Times New Roman", Times, serif; 
+	padding: 30px;
 	overflow: hidden;
 	font-size: large;
+}
+
+#adzap{
+  	background-image: url(../images/2.png);
+}
+
+#quiz{
+	background-image: url(../images/2.png);
+}
+
+#channel{
+	background-image: url(../images/2.png);
+}
+
+#cricket{
+	background-image: url(../images/2.png);
+}
+
+#music{
+	background-image: url(../images/104.jpg);
+	margin-top: 2%;
+}
+
+#dance{
+	background-image: url(../images/102.jpg);
+	margin-top: 2%;	
+}
+
+#cod{
+	background-image: url(../images/104.jpg);
+	margin-top: 2%;
+}
+
+#dota{
+	background-image: url(../images/2.png);
+}
+
+#bombsquad{
+	background-image: url(../images/2.png);
+}
+
+#masterchef{
+	background-image: url(../images/2.png);
+}
+
+#facepainting{
+	background-image: url(../images/2.png);
+}
+
+#spotlight{
+    background-image: url(../images/102.jpg);
+    margin-top: 2%;
+}
+
+#spyme{
+    background-image: url(../images/2.png);
+}
+
+#dubsmash{
+    background-image: url(../images/2.png);
+}
+
+#funevents{
+    background-image: url(../images/2.png);
+}
+
+#fifa{
+   background-image: url(../images/104.jpg);
+   margin-top: 2%;
+}
+
+#photography{
+   background-image: url(../images/2.png);
+}
+
+#shipwreck{
+   background-image: url(../images/2.png);	
+}
+
+#manvswild{
+   background-image: url(../images/104.jpg);
+   margin-top: 2%;	
 }
 
 #map{
@@ -102,4 +234,25 @@ html,body,h1,h2,h3,h4,h5 {
 
 .contacticons{
 	margin-top: 15%;
+}
+
+.contactinfo{
+	text-align: center;
+}
+
+.authortext{
+	color: #FFFFFF;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	margin: 1%;
+}
+
+.authorlink{
+	text-decoration: none;
+	color: #A7FFEB;
+}
+
+.authorlink:hover{
+	text-decoration: none;
+	color: #A7FFEB;
 }
