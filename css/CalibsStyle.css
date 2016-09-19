@@ -51,7 +51,7 @@ h4 {
 }
 
 #author{
-	background-color: #000000;   
+	background-color: #d3d3d3;   
 }
 
 .branding:hover{
@@ -145,50 +145,50 @@ h4 {
 }
 
 #adzap{
-  	background-image: url(../images/2.png);
+  	background-image: url(../images/Adzap450x300.png);
 }
 
 #quiz{
-	background-image: url(../images/2.png);
+	background-image: url(../images/Quiz.png);
 }
 
 #channel{
-	background-image: url(../images/2.png);
+	background-image: url(../images/ChannelSurfing450x300.png);
 }
 
 #cricket{
-	background-image: url(../images/2.png);
+	background-image: url(../images/Cricket.png);
 }
 
 #music{
-	background-image: url(../images/104.jpg);
+	background-image: url(../images/Music835x300.png);
 	margin-top: 2%;
 }
 
 #dance{
-	background-image: url(../images/102.jpg);
+	background-image: url(../images/rsz_dance1.png);
 	margin-top: 2%;	
 }
 
 #cod{
-	background-image: url(../images/104.jpg);
+	background-image: url(../images/COD835x300.png);
 	margin-top: 2%;
 }
 
 #dota{
-	background-image: url(../images/2.png);
+	background-image: url(../images/Dota.png);
 }
 
 #bombsquad{
-	background-image: url(../images/2.png);
+	background-image: url(../images/TreasureHunt.png);
 }
 
 #masterchef{
-	background-image: url(../images/2.png);
+	background-image: url(../images/Masterchef.png);
 }
 
 #facepainting{
-	background-image: url(../images/2.png);
+	background-image: url(../images/FacePainting.png);
 }
 
 #spotlight{
@@ -241,7 +241,7 @@ h4 {
 }
 
 .authortext{
-	color: #FFFFFF;
+	color: #333333;
 	font-family: "Times New Roman", Times, serif;
 	text-align: center;
 	margin: 1%;
@@ -249,7 +249,7 @@ h4 {
 
 .authorlink{
 	text-decoration: none;
-	color: #A7FFEB;
+	color: #000000;/*#A7FFEB*/
 }
 
 .authorlink:hover{
