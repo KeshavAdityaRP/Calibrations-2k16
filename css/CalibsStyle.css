@@ -29,7 +29,7 @@ h4 {
 }
 
 .jumbotron{
-	background-image: url(../images/101.jpg);
+	background-image: url(../images/CalibrationsBackground.png);
 	max-width:100%; 
 	width: 100%;
 	position: relative;
@@ -54,19 +54,33 @@ h4 {
 	background-color: #d3d3d3;   
 }
 
+#group{
+	background-color: #d3d3d3;
+}
+
+#individual{
+	background-color: #d3d3d3;
+}
+
 .branding:hover{
     color: red;
 }
 
+.covertext{
+	position: relative;
+	bottom: 295px;
+}
+
 .movedownicon{
-	color: #009688;
+	color: #a7ffeb;
 	font-size: 5em;
 	position: relative;
 	left: 40%;
+	bottom: 295px;
 }
 
 .movedownicon:hover{
-	color: #004D40;
+	color: #d3d3d3;
 }
 
 .container{
@@ -134,7 +148,7 @@ h4 {
 .eventpic:hover .eventtext{
 	opacity: 0.6; 
 	text-align: center;
-	line-height: 4em; 
+	line-height: 3em; 
 	color: #000000; 
 	font-size: 20px; 
 	font-weight: 700; 
@@ -145,7 +159,7 @@ h4 {
 }
 
 #adzap{
-  	background-image: url(../images/Adzap450x300.png);
+  	background-image: url(../images/Adzap.png);
 }
 
 #quiz{
@@ -153,7 +167,7 @@ h4 {
 }
 
 #channel{
-	background-image: url(../images/ChannelSurfing450x300.png);
+	background-image: url(../images/ChannelSurfing.png);
 }
 
 #cricket{
@@ -192,37 +206,37 @@ h4 {
 }
 
 #spotlight{
-    background-image: url(../images/102.jpg);
+    background-image: url(../images/Spotlight.png);
     margin-top: 2%;
 }
 
 #spyme{
-    background-image: url(../images/2.png);
+    background-image: url(../images/SpyMe.png);
 }
 
 #dubsmash{
-    background-image: url(../images/2.png);
+    background-image: url(../images/Dubsmash.png);
 }
 
 #funevents{
-    background-image: url(../images/2.png);
+    background-image: url(../images/FunEvents.png);
 }
 
 #fifa{
-   background-image: url(../images/104.jpg);
+   background-image: url(../images/Fifa.png);
    margin-top: 2%;
 }
 
 #photography{
-   background-image: url(../images/2.png);
+   background-image: url(../images/Photography.png);
 }
 
 #shipwreck{
-   background-image: url(../images/2.png);	
+   background-image: url(../images/Shipwrech.png);	
 }
 
 #manvswild{
-   background-image: url(../images/104.jpg);
+   background-image: url(../images/ManvsWild.png);
    margin-top: 2%;	
 }
 
