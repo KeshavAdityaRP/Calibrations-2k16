@@ -90,6 +90,20 @@ h4 {
 	color: #d3d3d3;
 }
 
+.alert{
+	background-color: #d3d3d3;
+	color: #000000;
+	position: fixed;
+	z-index: 1;
+	top: 40%;
+	width: 100%;
+	border-color: transparent;
+}
+
+.alertalign{
+    margin: 0 auto;
+}
+
 .container{
     padding: 5%;
 }
